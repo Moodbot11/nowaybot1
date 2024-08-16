@@ -2,7 +2,7 @@ import asyncio
 from aiohttp import web
 from lmnt.api import Speech
 from openai import AsyncOpenAI
-pip install -r requirements.txt
+import requirements.txt
 
 DEFAULT_PROMPT = 'Read me the text of a short sci-fi story in the public domain.'
 VOICE_ID = 'lily'
