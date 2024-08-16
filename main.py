@@ -42,5 +42,5 @@ async def handle(request):
 app = web.Application()
 app.router.add_get('/', handle)
 
-if __name__ == '__main__':
+
  
