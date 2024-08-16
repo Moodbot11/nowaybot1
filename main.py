@@ -43,6 +43,4 @@ app = web.Application()
 app.router.add_get('/', handle)
 
 if __name__ == '__main__':
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(main())
-    web.run_app(app, port=8000)
+ 
